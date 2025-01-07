@@ -22,10 +22,10 @@ const store = createStore();
  * ? Note: `React.StrictMode` will render components twice in development, but not in production,
  * ? in order to detect any problems with your code and warn you about them.
  */
-ReactDOM.createRoot(document.getElementById('root').render(
+ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Provider store={store}>
             <App />
         </Provider>
     </React.StrictMode>
-));
+);
