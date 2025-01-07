@@ -1,8 +1,10 @@
 // * frontend/src/App.jsx
 
 // Node Module Imports
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 // Local Module Imports
+import Navigation from './components/Navigation/Navigation';
+import Landing from './components/Landing/Landing';
 
 /**
  * The primary purpose of the `Layout` component is to stall rendering (or re-rendering) the rest
@@ -17,9 +19,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
  * @component Layout
  * @returns {ReactElement}
  */
-// function Layout() {
-//     return <Outlet />
-// }
+function Layout() {
+    return (<>
+        <Navigation />
+        <Outlet />
+    </>);
+}
 
 /**
  * The route tree utilized by the `RouterProvider` to establish the locations of routes inside the
@@ -27,9 +32,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
  * @type {Router}
  */
 const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <h1>Hello from App</h1>
+    {   
+        element: <Layout />,
+        children: [
+            {
+                path: '/',
+                element: <Landing />
+            }
+        ]
     }
 ]);
 

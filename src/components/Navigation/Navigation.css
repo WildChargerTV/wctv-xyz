@@ -1,0 +1,48 @@
+/* * src/components/Navigation/Navigation.css */
+
+/* Global Definitions: Site Navigation */
+#site-nav {
+    box-sizing: border-box;
+    background-color: rgba(64, 64, 64, 0.5);
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+    overflow: hidden;
+    padding: 20px 50px;
+    position: sticky;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    width: 100%;
+}
+
+/* Site Navigation: Site Title & Catchphrase (Dynamic "Logo") */
+#site-logo { 
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    max-width: 50%;
+    min-height: 75px; 
+    min-width: fit-content;
+    overflow: hidden;
+    text-align: right;
+}
+#site-logo:hover { color: #e8e6e3; }
+#site-logo * { margin: 0; }
+#site-title {
+    -webkit-text-stroke: medium black;
+    font-size: clamp(36pt, 8.5vh, 72pt);
+    line-height: 95%;
+    text-transform: uppercase;
+}
+
+/* Site Navigation: Site NavLinks */
+#site-nav-links {
+    display: flex;
+        justify-content: space-evenly;
+    min-width: 50%;
+}
+#site-nav-links * {
+    font-weight: 600;
+}

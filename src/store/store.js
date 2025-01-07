@@ -3,14 +3,16 @@
 // Node Module Imports
 import { configureStore } from '@reduxjs/toolkit';
 import { thunk } from 'redux-thunk';
+// Local Module Imports
+import siteReducer from './site';
 
 const rootReducer = {
-
+    site: siteReducer
 };
 
 const createStore = (preloadedState) => configureStore({
     reducer: rootReducer,
     preloadedState,
-    enhancers: [thunk]
+    middleware: () => [thunk]
 });
 export default createStore;

@@ -1,0 +1,32 @@
+/* Font: Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Site Element Definitions */
+a { 
+    color: unset;
+    text-decoration: none;
+}
+a:disabled { opacity: 0.5; }
+a:hover { color: #f9e2ad; }
+
+body {
+    background-color: #181a1b;
+    color: #e8e6e3;
+    font-family: "Montserrat", serif;
+    margin: 0;
+    paint-order: stroke fill;
+}
+
+h1, h2, h3, h4, h5, h6 { -webkit-text-stroke: medium black; }
+h1, h2, h3 { font-weight: 800; }
+
+h1 {
+    font-size: clamp(28pt, 9vh, 72pt);
+}
+h2 {
+    font-size: clamp(28pt, 6.67vh, 56pt);
+}
+
+p {
+    font-size: clamp(12pt, 3.33vh, 24pt);
+}
