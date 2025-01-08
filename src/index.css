@@ -4,6 +4,7 @@
 /* Global Site Element Definitions */
 a { 
     color: unset;
+    font-size: 2vw;
     text-decoration: none;
 }
 a:disabled { opacity: 0.5; }
@@ -17,16 +18,23 @@ body {
     paint-order: stroke fill;
 }
 
+button {
+    background: none;
+    border: none;
+    color: #e8e6e3;
+    cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6 { -webkit-text-stroke: medium black; }
 h1, h2, h3 { font-weight: 800; }
 
 h1 {
-    font-size: clamp(28pt, 9vh, 72pt);
+    font-size: 3.5vw;
 }
 h2 {
     font-size: clamp(28pt, 6.67vh, 56pt);
 }
 
 p {
-    font-size: clamp(12pt, 3.33vh, 24pt);
+    font-size: 1.5vw;
 }

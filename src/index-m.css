@@ -1,0 +1,13 @@
+@media screen and ( max-width: 719px ) {
+    a {
+        font-size: 5vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+}

@@ -5,9 +5,9 @@
     box-sizing: border-box;
     background-color: rgba(64, 64, 64, 0.5);
     display: flex;
+        column-gap: 50px;
         align-items: center;
         justify-content: space-between;
-    overflow: hidden;
     padding: 20px 50px;
     position: sticky;
         top: 0;
@@ -32,17 +32,24 @@
 #site-logo * { margin: 0; }
 #site-title {
     -webkit-text-stroke: medium black;
-    font-size: clamp(36pt, 8.5vh, 72pt);
+    font-size: 4.5vw;
     line-height: 95%;
     text-transform: uppercase;
+}
+#site-catchphrase {
+    font-size: 1.1vw;
 }
 
 /* Site Navigation: Site NavLinks */
 #site-nav-links {
     display: flex;
-        justify-content: space-evenly;
-    min-width: 50%;
+        column-gap: 33px;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    min-width: 30%;
 }
 #site-nav-links * {
+    
     font-weight: 600;
 }

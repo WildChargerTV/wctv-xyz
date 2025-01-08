@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import createStore from './store/store';
 import './index.css';
+import './index-m.css';
 
 /** 
  * The Redux store, as assembled & configured by {@linkcode createStore}. Managed by the Provider
