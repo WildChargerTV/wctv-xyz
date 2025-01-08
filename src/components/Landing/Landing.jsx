@@ -3,7 +3,7 @@ import './Landing.css';
 
 export default function Landing() {
     return (<main id='site-landing'>
-        <h2>Nothing&apos;s here... yet!</h2>
+        <h1>Nothing&apos;s here... yet!</h1>
         <p>
             Welcome to my website. My name is WildCharger, creator of the most inconsistent content
             on the internet.
