@@ -16,15 +16,18 @@ const catchphraseData = [
     "Developer of ESBuilder, beta available now!",
     "Prefers SiIvaGunner over actual music.",
     "Spent WAY too much time making these subheaders.",
-    "Sunshine Isles - Super Mario 64 (Build 3313)",
+    "BMC - Street Party - Bloons TD 6",
     "Always the designated family I.T. guy.",
     "Kalos enjoyer, Galar disliker.",
-    "Really likes African Grey videos.",
+    "Really likes Congo African Grey videos.",
     "Get Quagsire in Smash Bros.",
     "Stop wasting lasers. They're not cheap, you know.",
     "Azalea Town x Last Christmas. Think about it.",
     "Hoping you have a good day!",
-    "Pokémon Masters EX Quitter (Make Quagsire Playable)."
+    "Pokémon Masters EX Quitter (Make Quagsire Playable).",
+    "Wishing there were more than 24 hours in a day.",
+    "Thinks the Minecraft logo yellowtext is cool.",
+    "Reform Copyright Law."
 ];
 
 export default catchphraseData;
