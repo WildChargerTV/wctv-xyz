@@ -2,7 +2,7 @@
 
 const catchphraseData = [
     "Still inconsistent, but now with a website!",
-    "Never had a TikTok, never will have one.",
+    "TikTok's dead. Anyways...",
     "Never had an Instagram, never will have one.",
     "Definitely NOT procrastinating on something.",
     "Certified TRON 2.0 Enthusiast.",
