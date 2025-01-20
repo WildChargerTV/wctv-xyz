@@ -1,6 +1,10 @@
 /* * src/components/Contact/Contact.css */
 /* Contact Page Desktop Layout */
 
+#site-contact {
+    margin-bottom: 100px;
+}
+
 #site-contact-form {
     display: flex;
         flex-direction: column;

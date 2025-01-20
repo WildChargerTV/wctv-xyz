@@ -16,7 +16,7 @@ export default function Contact() {
     const onSubmit = (event) => {
         event.preventDefault();
 
-        emailjs.sendForm('privateemail_info', 'contact_form', {
+        emailjs.sendForm('privateemail_info', 'contact_form', formRef, {
             publicKey: 'q6ePw5OFglADt8KoD'
         }).then(() => {
             alert('Email sent. You should receive a confirmation shortly.');
