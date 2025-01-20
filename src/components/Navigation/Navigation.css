@@ -50,6 +50,13 @@
     min-width: 30%;
 }
 #site-nav-links * {
-    
     font-weight: 600;
+}
+#site-nav-links button {
+    background: none;
+    border: none;
+    color: #e8e6e3;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding: 1px 4px;
 }

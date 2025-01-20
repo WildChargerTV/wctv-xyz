@@ -1,5 +1,7 @@
 /* Font: Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Font: Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* Global Site Element Definitions */
 a { 
@@ -20,9 +22,13 @@ body {
 
 button {
     background: none;
-    border: none;
+    border: 2px solid white;
+        border-radius: 5px;
     color: #e8e6e3;
-    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75vw;
+    font-weight: 600;
+    padding: 0.35vw 0.75vw;
 }
 
 h1, h2, h3, h4, h5, h6 { -webkit-text-stroke: medium black; }
@@ -35,6 +41,32 @@ h2 {
     font-size: clamp(28pt, 6.67vh, 56pt);
 }
 
+input {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px solid lightgray;
+        border-radius: 5px;
+    color: white;
+    font-family: 'Lato', serif;
+    font-size: 1.5vw;
+    padding: 5px;
+}
+
+main {
+    margin: auto;
+    width: 85%;
+}
+
 p {
     font-size: 1.5vw;
+}
+
+textarea {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px solid lightgray;
+        border-radius: 5px;
+    color: white;
+    font-family: 'Lato', serif;
+    font-size: 1.25vw;
+    padding: 5px;
+    resize: none;
 }
