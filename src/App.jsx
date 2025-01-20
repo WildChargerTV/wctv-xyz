@@ -5,6 +5,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 // Local Module Imports
 import Navigation from './components/Navigation/Navigation';
 import Landing from './components/Landing/Landing';
+import Contact from './components/Contact/Contact';
 
 /**
  * The primary purpose of the `Layout` component is to stall rendering (or re-rendering) the rest
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Landing />
+            },
+            {
+                path: '/contact',
+                element: <Contact />
             }
         ]
     }
