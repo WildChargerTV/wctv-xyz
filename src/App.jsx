@@ -1,7 +1,7 @@
 // * frontend/src/App.jsx
 
 // Node Module Imports
-import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
+import { createHashRouter, Outlet, RouterProvider } from 'react-router-dom';
 // Local Module Imports
 import Navigation from './components/Navigation/Navigation';
 import Landing from './components/Landing/Landing';
@@ -32,16 +32,17 @@ function Layout() {
  * React app.
  * @type {Router}
  */
-const router = createBrowserRouter([
+const router = createHashRouter([
     {   
+        path: '/',
         element: <Layout />,
         children: [
             {
-                path: '/',
+                path: '',
                 element: <Landing />
             },
             {
-                path: '/contact',
+                path: 'contact',
                 element: <Contact />
             }
         ]
