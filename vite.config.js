@@ -1,7 +1,8 @@
 // * frontend/vite.config.js
 
-import { defineConfig } from 'vite';
+// Node Module Imports
 import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite';
 import eslint from 'vite-plugin-eslint';
 
 // https://vitejs.dev/config/
