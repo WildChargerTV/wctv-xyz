@@ -42,7 +42,7 @@ function NavigationDesktop({ data }) {
 
         {/* Site Nav Links */}
         <div id='site-nav-links'>
-            <NavLink to='/about'>About</NavLink>
+            {/* <NavLink to='/about'>About</NavLink> */}
             <NavLink to='/portfolio'>Portfolio</NavLink>
             <NavLink to='/contact'>Contact</NavLink>
         </div>
@@ -94,16 +94,11 @@ function NavigationMobile({ data }) {
             </button>
             <div id='site-nav-rel-container'>
                 {showDropdown && (<div id='site-nav-dropdown' ref={menuWidthRef} style={{left: dropdownLeft}}>
-                    <NavLink to='/about'>About</NavLink>
+                    {/* <NavLink to='/about'>About</NavLink> */}
                     <NavLink to='/portfolio'>Portfolio</NavLink>
                     <NavLink to='/contact'>Contact</NavLink>
                 </div>)}
             </div>
         </div>
-        {/* <div id='site-nav-links'>
-            <NavLink to='/about'>About</NavLink>
-            <NavLink to='/portfolio'>Portfolio</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
-        </div> */}
     </>);
 }
