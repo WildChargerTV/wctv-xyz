@@ -47,6 +47,7 @@
         justify-content: center;
         flex-wrap: wrap;
         row-gap: 10px;
+    font-size: 2vw;
     min-width: 30%;
 }
 #site-nav-links * {

@@ -6,7 +6,6 @@
 /* Global Site Element Definitions */
 a { 
     color: unset;
-    font-size: 2vw;
     text-decoration: none;
 }
 a:disabled { opacity: 0.5; }
