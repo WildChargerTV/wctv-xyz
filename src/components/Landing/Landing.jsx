@@ -28,7 +28,7 @@ export default function Landing() {
                 ongoing & completed projects, and head over to the <b><Link to='/contact'>Contact
                 </Link></b> page if you need to get in touch with me. Thank you!
             </p>
-            <img src='/src/img/Characters.png' alt='brand characters' />
+            <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/Characters.png' alt='brand characters' />
         </div>
         
         {/* Section 2: Twitch */}

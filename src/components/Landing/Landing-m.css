@@ -2,6 +2,9 @@
     #landing-intro {
         flex-direction: column;
     }
+    #landing-intro img {
+        height: auto;
+    }
 
     #landing-twitch {
         flex-direction: column-reverse;
