@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { NavLink } from 'react-router-dom';
 import { catchphraseData } from '../../data';
-import useWindowSize from '../../../hooks/windowSize';
+import useWindowSize from '../../hooks/windowSize';
 import './Navigation.css';
 import './Navigation-m.css';
 
