@@ -7,6 +7,7 @@ import Navigation from './components/Navigation/Navigation';
 import Landing from './components/Landing/Landing';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import BucketItem from './utils/BucketItem';
 
 /**
  * Renders the greater structure of the webpage. Use this component to render elements that should
@@ -44,6 +45,11 @@ const router = createHashRouter([
                 element: <Contact />
             }
         ]
+    },
+    {
+        /** File Pages (Bucket Access) */
+        path: '/files/:fileName',
+        element: <BucketItem />
     }
 ]);
 

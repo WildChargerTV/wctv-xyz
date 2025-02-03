@@ -3,6 +3,7 @@
 // Node Module Imports
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube, AiOutlineX } from 'react-icons/ai';
 import { DiFirefox, DiJavascript1, DiReact } from 'react-icons/di';
+import { FaAws } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 // Local Module Imports
 import './Footer.css';
@@ -28,6 +29,11 @@ export default function Footer() {
                 <span className='site-footer__text-icon'>
                     <DiReact /><DiJavascript1 />
                 </span> Powered by ReactJS
+            </p>
+            <p>
+                <span className='site-footer__text-icon'>
+                    <FaAws />
+                </span> Asset Delivery served via Amazon Web Services
             </p>
             <p>
                 <span className='site-footer__text-icon'>
