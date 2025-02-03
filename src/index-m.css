@@ -1,3 +1,6 @@
+/* * src/index-m.css */
+
+/* Mobile Global Site Element Definitions */
 @media screen and (max-width: 719px) {
     body {
         background-position: center;
