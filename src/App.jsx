@@ -6,6 +6,7 @@ import { createHashRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
 import Landing from './components/Landing/Landing';
 import Contact from './components/Contact/Contact';
+import Portfolio from './components/Portfolio/Portfolio';
 import Footer from './components/Footer/Footer';
 import BucketItem from './utils/BucketItem';
 
@@ -43,7 +44,12 @@ const router = createHashRouter([
             {
                 path: 'contact',
                 element: <Contact />
-            }
+            },
+            /** Portfolio Page */
+            {
+                path: 'portfolio',
+                element: <Portfolio />
+            },
         ]
     },
     {

@@ -1,0 +1,76 @@
+#portfolio-tabs {
+    border: 2px solid white;
+        border-radius: 7px;
+    list-style-type: none;
+    margin: 2vw auto 0 auto;
+    padding-left: 0;
+    width: fit-content;
+}
+#portfolio-tabs li {
+    display: inline-block;
+}
+#portfolio-tabs button {
+    backdrop-filter: brightness(60%);
+    border-radius: 0;
+    cursor: pointer;
+}
+#portfolio-tabs li.active button {
+    color: #f9e2ad;
+}
+
+#galaxy-on-fire-header {
+    -webkit-text-stroke: 0.25vw black;
+    font-family: 'Xirod', sans-serif;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.galaxy-on-fire-subheader {
+    margin-bottom: 0.5vw;
+}
+
+#gof-paragraph-1, #gof-paragraph-2 {
+    display: inline-flex;
+        column-gap: 2vw;
+    width: 100%;
+}
+#gof-paragraph-1 img {
+    max-height: 344px;
+    max-width: 33%;
+}
+
+#gof-paragraph-2 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+#wiki-logo-discord {
+    max-width: 20%;
+}
+#wiki-logo-discord * {
+    width: 100%;
+}
+#wiki-logo-discord iframe {
+    height: 60%;
+}
+
+#gof-album-grid {
+    display: grid;
+        grid-template-columns: repeat(3, 15%);
+    margin: auto;
+}
+#gof-album-grid div {
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+#gof-album-grid img {
+    max-width: 90%;
+}
+#gof-album-grid a {
+    border: 1px solid white;
+    font-size: 1.25vw;
+    font-weight: 600;
+    padding: 0.5vw 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+}
