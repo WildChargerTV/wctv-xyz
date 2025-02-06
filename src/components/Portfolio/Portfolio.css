@@ -1,3 +1,7 @@
+#site-portfolio a {
+    font-weight: 700;
+}
+
 #portfolio-tabs {
     border: 2px solid white;
         border-radius: 7px;
@@ -34,8 +38,8 @@
     width: 100%;
 }
 #gof-paragraph-1 img {
+    min-width: 33%;
     max-height: 344px;
-    max-width: 33%;
 }
 
 #gof-paragraph-2 {
@@ -43,13 +47,13 @@
     justify-content: flex-end;
 }
 #wiki-logo-discord {
-    max-width: 20%;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    min-width: 15vw;
 }
 #wiki-logo-discord * {
+    height: 100%;
     width: 100%;
-}
-#wiki-logo-discord iframe {
-    height: 60%;
 }
 
 #gof-album-grid {

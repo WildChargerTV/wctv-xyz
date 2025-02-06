@@ -4,8 +4,6 @@
 import FileDownloadLink from '../../../utils/FileDownloadLink';
 
 export default function GOFTab() {
-
-
     return (<>
         <h2 id='galaxy-on-fire-header'>Galaxy on Fire</h2>
         <div id='gof-paragraph-1'>
@@ -22,27 +20,27 @@ export default function GOFTab() {
         <div id='gof-paragraph-2'>
             <p>
                 My largest contribution to this community would be my time as the administrator of
-                the Galaxy on Fire Wiki. I joined the community in November of 2013 under the
-                username of <b><a href='https://galaxyonfire.wiki.gg/wiki/User:NiveliKing' target='_blank' rel='noreferrer'>
-                NiveliKing</a></b>, and was nominated for the position mere months later in
-                February of 2014. Since then, I&apos;ve completed major undertakings, including the
+                the <a href='https://galaxyonfire.wiki.gg/' target='_blank' rel='noreferrer'>Galaxy
+                on Fire Wiki</a>. I joined the community in November of 2013 under the
+                username of <a href='https://galaxyonfire.wiki.gg/wiki/User:NiveliKing' target='_blank' rel='noreferrer'>
+                NiveliKing</a>, and was nominated for the position mere months later in February of
+                2014. Since then, I&apos;ve completed major undertakings, including the
                 documentation of every planet in the GoF3D galaxy & porting the entirety of the
                 Codex from GoF3: Manticore, alongside over 4,500+ other edits.
                 <br /><br />
                 When we announced the Wiki had entered end-of-support in July of 2020, I, as well
                 as what little was left of the Galaxy on Fire community at the time, moved over to
-                the <b><a href='https://kaamo.club/' target='_blank' rel='noreferrer'>Kaamo 
-                Club</a></b>, which now serves as a hub for all things Galaxy on Fire outside of
-                the wiki. Since then, we&apos;ve grown to become over 3,000 members strong. Please
-                feel free to join us by clicking on the bold link above or joining via the widget
-                to the left. We&apos;d love your patronage!
+                the <a href='https://kaamo.club/' target='_blank' rel='noreferrer'>Kaamo Club</a>,
+                which now serves as a hub for all things Galaxy on Fire outside of the wiki. Since
+                then, we&apos;ve grown to become over 3,000 members strong. Please feel free to
+                join us by clicking on the bold link above or joining via the widget to the left
+                (or below on mobile). We&apos;d love your patronage!
             </p>
             <div id='wiki-logo-discord'>
                 <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/GalaxyOnFire/Wiki%20Logo.png' alt='Wiki Logo' />
                 <iframe 
                     title='kaamo-club-embed' 
                     src='https://discord.com/widget?id=226528541368385536&theme=dark'  
-                    frameBorder='0' 
                     sandbox='allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts'
                 />
             </div>
