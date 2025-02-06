@@ -58,19 +58,19 @@ export default function GOFTab() {
             <div id='gof3d-soundtrack'>
                 <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/GalaxyOnFire/GoF3D%20Album%20Cover.png' alt='Galaxy on Fire 3D Soundtrack Album Cover' />
                 <FileDownloadLink itemKey='gof3d-official-soundtrack.zip' linkText='Download' />
-                <a href='https://www.youtube.com/watch?v=eneWtnXU_Rg' target='_blank'>Video</a>
-                <a href='https://www.youtube.com/playlist?list=PLVJSCg8T091cLDPH7o7AHK5HYIvqtc6Qr' target='_blank'>Playlist</a>
+                <a href='https://www.youtube.com/watch?v=eneWtnXU_Rg' target='_blank' rel='noreferrer'>Video</a>
+                <a href='https://www.youtube.com/playlist?list=PLVJSCg8T091cLDPH7o7AHK5HYIvqtc6Qr' target='_blank' rel='noreferrer'>Playlist</a>
             </div>
             <div id='gof2-soundtrack'>
                 <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/GalaxyOnFire/GoF2%20Album%20Cover.png' alt='Galaxy on Fire 2 Soundtrack Album Cover' />
                 <FileDownloadLink itemKey='gof2-official-soundtrack.zip' linkText='Download' />
-                <a href='https://www.youtube.com/watch?v=joiw2CTcZQQ' target='_blank'>Video</a>
-                <a href='https://www.youtube.com/playlist?list=PLVJSCg8T091cgzTeEzK6INit2AkDImksP' target='_blank'>Playlist</a>
+                <a href='https://www.youtube.com/watch?v=joiw2CTcZQQ' target='_blank' rel='noreferrer'>Video</a>
+                <a href='https://www.youtube.com/playlist?list=PLVJSCg8T091cgzTeEzK6INit2AkDImksP' target='_blank' rel='noreferrer'>Playlist</a>
             </div>
             <div id='gof2-game-audio'>
                 <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/GalaxyOnFire/GoF2%20Album%20Cover%202.png' alt='Galaxy on Fire 2 Other Soundtrack Album Cover' />
                 <FileDownloadLink itemKey='gof2-game-music.zip' linkText='Download' />
-                <a href='https://www.youtube.com/watch?v=pK-CrpAc5Wo' target='_blank'>Video</a>
+                <a href='https://www.youtube.com/watch?v=pK-CrpAc5Wo' target='_blank' rel='noreferrer'>Video</a>
             </div>
         </div>
     </>);
