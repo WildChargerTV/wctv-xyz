@@ -34,6 +34,7 @@ button {
     border: 2px solid white;
         border-radius: 5px;
     color: #e8e6e3;
+    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.75vw;
     font-weight: 600;
