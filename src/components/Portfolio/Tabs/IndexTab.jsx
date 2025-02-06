@@ -10,6 +10,8 @@ export default function IndexTab() {
             themselves by their game of focus, with one tab reserved to describe my journey as a
             content creator.
             <br /><br />
+            Note that in all tabs (except this one), <b>bold text indicates a link</b>!
+            <br /><br />
             This page will be updated as my projects progress, so feel free to check back every so
             often!
         </p>
