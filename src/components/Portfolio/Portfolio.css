@@ -65,10 +65,12 @@
 #gof-album-grid img {
     max-width: 90%;
 }
-#gof-album-grid a {
+#gof-album-grid button {
     border: 1px solid white;
+        border-radius: 0;
     font-size: 1.25vw;
     font-weight: 600;
+    margin-top: 0.75vw;
     padding: 0.5vw 0;
     text-align: center;
     text-transform: uppercase;
