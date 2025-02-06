@@ -22,7 +22,7 @@
     #gof-album-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-    #gof-album-grid button {
+    #gof-album-grid button, #gof-album-grid a {
         font-size: 3.25vw;
     }
 }
