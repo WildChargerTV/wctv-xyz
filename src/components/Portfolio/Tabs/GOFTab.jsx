@@ -53,7 +53,8 @@ export default function GOFTab() {
             direct downloads of album releases for the first two Galaxy on Fire games. I was able
             to snag these files before they were removed from the site, and now host them here on
             my own, with an additional third album featuring loopable versions of the tracks from
-            Galaxy on Fire 2! Feel free to use the below links to download them.
+            Galaxy on Fire 2! Feel free to use the below links to download them. (Just don&apos;t
+            let Mkkt Bkkt know they&apos;re here... got it?)
         </p>
         <div id='gof-album-grid'>
             <div id='gof3d-soundtrack'>

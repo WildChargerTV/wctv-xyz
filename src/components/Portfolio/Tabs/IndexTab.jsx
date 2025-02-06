@@ -10,7 +10,7 @@ export default function IndexTab() {
             themselves by their game of focus, with one tab reserved to describe my journey as a
             content creator.
             <br /><br />
-            This page will be updates as my projects progress, so feel free to check back every so
+            This page will be updated as my projects progress, so feel free to check back every so
             often!
         </p>
     </>);
