@@ -80,3 +80,40 @@
     text-transform: uppercase;
     width: 90%;
 }
+
+#tron-header {
+    -webkit-text-stroke: 0.25vw black;
+    font-family: 'JetBradley', sans-serif;
+    margin-bottom: 0;
+}
+.tron-subheader {
+    margin-bottom: 0.5vw;
+}
+
+#tron-paragraph-1, #tron-paragraph-2, #tron-paragraph-3 {
+    display: inline-flex;
+        column-gap: 2vw;
+    width: 100%;
+}
+#tron-paragraph-1 img {
+    max-width: 45%;
+    min-width: 33%;
+}
+
+#tron-paragraph-2 {
+    flex-direction: row-reverse;
+}
+#tron-paragraph-2 img {
+    max-width: 25%;
+}
+
+#tron-paragraph-3 iframe {
+    aspect-ratio: 16 / 9;
+    min-width: 40%;
+    object-fit: contain;
+}
+
+#tron-footer-meme {
+    margin-top: 1vw;
+    max-width: 100%;
+}

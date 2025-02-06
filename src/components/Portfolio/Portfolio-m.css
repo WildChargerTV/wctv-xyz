@@ -13,10 +13,7 @@
         width: 100%;
     }
 
-    #gof-paragraph-1 {
-        flex-direction: column;
-    }
-    #gof-paragraph-2 {
+    #gof-paragraph-1, #gof-paragraph-2 {
         flex-direction: column;
     }
     #gof-album-grid {
@@ -24,5 +21,23 @@
     }
     #gof-album-grid button, #gof-album-grid a {
         font-size: 3.25vw;
+    }
+
+    #tron-paragraph-1, #tron-paragraph-2, #tron-paragraph-3 {
+        flex-direction: column;
+    }
+    #tron-paragraph-1 img {
+        max-width: 100%;
+    }
+    #tron-paragraph-2 img {
+        align-self: center;
+        max-width: 50%;
+    }
+    #tron-paragraph-3 button {
+        font-size: 5vw;
+    }
+
+    #tron-footer-meme {
+        margin-top: 10vw;
     }
 }
