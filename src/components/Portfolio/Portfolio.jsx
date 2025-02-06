@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux';
 // Local Module Imports
 import { IndexTab, GOFTab } from './Tabs';
 import { updateActiveTab } from '../../store/site';
-import BucketItem from '../../utils/BucketItem';
 import './Portfolio.css';
 import './Portfolio-m.css';
 
@@ -45,7 +44,6 @@ export default function Portfolio() {
             <li><button id='p-tab-3' onClick={onClick}>EVERSPACE™</button></li>
             <li><button id='p-tab-4' onClick={onClick}>Content Creation</button></li>
         </ul>
-        {/* <BucketItem itemKey='gof2-official-soundtrack.zip' linkText='Download GoF2 Soundtrack' /> */}
         <div id='portfolio-content'>
             {TABS[activeTab]}
         </div>
