@@ -1,7 +1,7 @@
 // * src/components/Portfolio/Tabs/GOFTab.jsx
 
 // Local Module Imports
-import BucketItem from "../../../utils/BucketItem";
+import FileDownloadLink from '../../../utils/FileDownloadLink';
 
 export default function GOFTab() {
 
@@ -58,15 +58,15 @@ export default function GOFTab() {
         <div id='gof-album-grid'>
             <div id='gof3d-soundtrack'>
                 <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/GalaxyOnFire/GoF3D%20Album%20Cover.png' alt='Galaxy on Fire 3D Soundtrack Album Cover' />
-                <BucketItem itemKey='gof3d-official-soundtrack.zip' linkText='Download' />
+                <FileDownloadLink itemKey='gof3d-official-soundtrack.zip' linkText='Download' />
             </div>
             <div id='gof2-soundtrack'>
                 <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/GalaxyOnFire/GoF2%20Album%20Cover.png' alt='Galaxy on Fire 2 Soundtrack Album Cover' />
-                <BucketItem itemKey='gof2-official-soundtrack.zip' linkText='Download' />
+                <FileDownloadLink itemKey='gof2-official-soundtrack.zip' linkText='Download' />
             </div>
             <div id='gof2-game-audio'>
                 <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/GalaxyOnFire/GoF2%20Album%20Cover%202.png' alt='Galaxy on Fire 2 Other Soundtrack Album Cover' />
-                <BucketItem itemKey='gof2-game-music.zip' linkText='Download' />
+                <FileDownloadLink itemKey='gof2-game-music.zip' linkText='Download' />
             </div>
         </div>
     </>);

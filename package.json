@@ -18,11 +18,6 @@
         "watch": "vite build --watch"
     },
     "dependencies": {
-        "@aws-crypto/sha256-browser": "^5.2.0",
-        "@aws-sdk/protocol-http": "^3.370.0",
-        "@aws-sdk/s3-request-presigner": "^3.740.0",
-        "@aws-sdk/url-parser": "^3.370.0",
-        "@aws-sdk/util-format-url": "^3.734.0",
         "@emailjs/browser": "^4.4.1",
         "@reduxjs/toolkit": "^2.5.0",
         "@vitejs/plugin-react": "^4.3.4",

@@ -8,7 +8,7 @@ import Landing from './components/Landing/Landing';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Footer from './components/Footer/Footer';
-import BucketItem from './utils/BucketItem';
+import FileDownloadLink from './utils/FileDownloadLink';
 
 /**
  * Renders the greater structure of the webpage. Use this component to render elements that should
@@ -55,7 +55,7 @@ const router = createHashRouter([
     {
         /** File Pages (Bucket Access) */
         path: '/files/:fileName',
-        element: <BucketItem />
+        element: <FileDownloadLink />
     }
 ]);
 
