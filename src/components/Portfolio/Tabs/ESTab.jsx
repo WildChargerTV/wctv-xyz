@@ -2,7 +2,6 @@
 
 // Node Module Imports
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
 // Local Module Imports
 import useWindowSize from '../../../hooks/windowSize';
 

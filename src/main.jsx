@@ -4,6 +4,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
+import 'react-slideshow-image/dist/styles.css';
 // Local Module Imports
 import App from './App';
 import createStore from './store/store';
