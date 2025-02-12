@@ -43,7 +43,7 @@ export default function ESTab() {
                 <br /><br />
                 I consider myself very lucky to have received the blessing of ROCKFISH Games to
                 continue work on this endeavor. Whether you want to record a build you achieved in 
-                a run, create a build that you'd like to use in a future run, or want to create 
+                a run, create a build that you&apos;d like to use in a future run, or want to make
                 builds to share with new pilots, I invite any and all to give ESBuilder a try.
                 <br /><br />
                 <a href='https://esbuilder.wildcharger.xyz/' target='_blank' rel='noreferrer'>
