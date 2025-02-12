@@ -28,6 +28,7 @@ b { font-weight: 700; }
 body {
     background-color: #181a1b;
     background-image: url(https://i.postimg.cc/R9vSPv29/Gradient.png);
+    background-position: center;
     background-size: cover;
     color: #e8e6e3;
     font-family: "Montserrat", serif;
