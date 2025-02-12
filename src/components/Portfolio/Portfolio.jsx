@@ -4,7 +4,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 // Local Module Imports
-import { IndexTab, GOFTab, TRONTab } from './Tabs';
+import { IndexTab, GOFTab, TRONTab, ESTab } from './Tabs';
 import { updateActiveTab } from '../../store/site';
 import './Portfolio.css';
 import './Portfolio-m.css';
@@ -19,7 +19,8 @@ export default function Portfolio() {
     const TABS = [
         <IndexTab key='p-tab-0' />,
         <GOFTab key='p-tab-1' />,
-        <TRONTab key='p-tab-2' />
+        <TRONTab key='p-tab-2' />,
+        <ESTab key='p-tab-3' />
     ]
 
     useEffect(() => {

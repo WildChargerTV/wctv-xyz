@@ -36,8 +36,20 @@
     #tron-paragraph-3 button {
         font-size: 5vw;
     }
-
     #tron-footer-meme {
         margin-top: 10vw;
+    }
+
+    #es-header img {
+        max-width: 100%;
+    }
+    #es-paragraph-1, #es-paragraph-2 {
+        flex-direction: column;
+    }
+    #es-builder-slideshow {
+        width: 100%;
+    }
+    #es-builder-slideshow .indicators {
+        padding-left: 0;
     }
 }
