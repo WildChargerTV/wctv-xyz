@@ -1,7 +1,7 @@
 // * src/components/Footer/Footer.jsx
 
 // Node Module Imports
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube, AiOutlineX } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube, AiOutlineTwitch, AiOutlineX } from 'react-icons/ai';
 import { DiDropbox, DiFirefox, DiJavascript1, DiReact } from 'react-icons/di';
 import { Link } from 'react-router-dom';
 // Local Module Imports
@@ -56,6 +56,9 @@ export default function Footer() {
                 </Link>
                 <Link to='https://www.youtube.com/@WildCharger'>
                     <AiFillYoutube />
+                </Link>
+                <Link to='https://twitch.tv/wildchargertv'>
+                    <AiOutlineTwitch />
                 </Link>
             </div>
         </div>
