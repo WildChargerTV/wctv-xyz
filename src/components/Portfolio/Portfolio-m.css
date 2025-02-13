@@ -52,4 +52,11 @@
     #es-builder-slideshow .indicators {
         padding-left: 0;
     }
+
+    #cc-paragraph-paladins-1, #cc-paragraph-paladins-2, #cc-paragraph-masters-1, #cc-paragraph-masters-2 {
+        flex-direction: column;
+    }
+    #cc-paragraph-paladins-1 img, #cc-paragraph-paladins-2 img, #cc-paragraph-masters-1 img {
+        max-width: unset;
+    }
 }

@@ -72,6 +72,7 @@
 #gof-album-grid button, #gof-album-grid a {
     border: 1px solid white;
         border-radius: 0;
+    box-sizing: border-box;
     font-size: 1.25vw;
     font-weight: 600;
     margin-top: 0.75vw;
@@ -125,7 +126,8 @@
 #es-header img {
     margin: -1%;
     max-width: 35%;
-}.es-subheader {
+}
+.es-subheader {
     margin-bottom: 0.5vw;
 }
 
@@ -159,4 +161,35 @@
         align-items: center;
         justify-content: center;
     height: fit-content;
+}
+
+#cc-header {
+    margin-bottom: 0;
+}
+.cc-subheader {
+    margin-bottom: 0.5vw;
+}
+
+#cc-paragraph-paladins-1, #cc-paragraph-paladins-2, #cc-paragraph-masters-1, #cc-paragraph-masters-2 {
+    display: inline-flex;
+        column-gap: 2vw;
+    width: 100%;
+}
+#cc-paragraph-paladins-2, #cc-paragraph-masters-2 {
+    flex-direction: row-reverse;
+}
+
+#cc-paragraph-paladins-1 img {
+    max-width: 20%;
+}
+
+#cc-paragraph-paladins-2 {
+    flex-direction: row-reverse;
+}
+#cc-paragraph-paladins-2 img {
+    max-width: 33%;
+}
+
+#cc-paragraph-masters-1 img {
+    max-width: 33%;
 }
