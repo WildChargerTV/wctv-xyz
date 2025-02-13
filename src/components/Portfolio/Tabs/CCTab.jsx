@@ -184,8 +184,8 @@ export default function CCTab() {
             start multistreaming to YouTube as well whenever I get the time.
             <br /><br />
             Thank you for reading this big ol&apos; text wall! As usual, you can expect this to be
-            updated as my journey continues, but if you're interested in what I do, feel free to
-            keep an eye on my socials for any announcements regarding existing or upcoming projects
+            updated as my journey continues, but if you&apos;re interested in what I do, feel free
+            to keep an eye on my socials for any announcements regarding existing/upcoming projects
             that may not be on this site yet.
         </p>
     </>);
