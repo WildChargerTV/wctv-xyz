@@ -170,12 +170,12 @@
     margin-bottom: 0.5vw;
 }
 
-#cc-paragraph-paladins-1, #cc-paragraph-paladins-2, #cc-paragraph-masters-1, #cc-paragraph-masters-2 {
+#cc-paragraph-paladins-1, #cc-paragraph-paladins-2, #cc-paragraph-masters-1 {
     display: inline-flex;
         column-gap: 2vw;
     width: 100%;
 }
-#cc-paragraph-paladins-2, #cc-paragraph-masters-2 {
+#cc-paragraph-paladins-2 {
     flex-direction: row-reverse;
 }
 

@@ -140,40 +140,38 @@ export default function CCTab() {
             </p>
             <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/PM%20Character%20Montage.png' alt='PM Character Montage' />
         </div>
-        <div id='cc-paragraph-masters-2'>
-            <p>
-                Ultimately, however, the prime of my Pokémon Masters era stemmed from the fact that
-                other events in my life demanded a lot of my time. Because Masters videos were easy
-                to &quot;mass-produce&quot;, it ended up just being an easy out to keep the channel
-                alive whilst I tended to other things. It wouldn&apos;t hold up, though; the cracks
-                in the foundation were apparent, but there were three main reasons why I decided to
-                move on from the game.
-                <ol>
-                    <li>
-                        Power creep was starting to drive the game away from the battling mechanics
-                        of the core series - a trend which continues to this day.
-                    </li>
-                    <li>
-                        The difficulty ceiling was starting to get a bit too high. Even though this
-                        may sound funny for a gacha game, I had began to notice months earlier that
-                        other players were pulling off battle strategies that would have demanded
-                        hours of my time.
-                    </li>
-                    <li>
-                        As I started getting more into the environment of game development, I found
-                        that I was wanting to actually build a gacha system of my own: one which
-                        would focus on players over profit. Although this has yet to materialize, I
-                        have had some ideas rolling around that I definitely intend to work with at
-                        a later time.
-                    </li>
-                </ol>
-                At the end of the day, Masters was never going to hold up; however, I still revisit
-                the game from time to time, if I feel like it. But especially as my web development
-                course started to pick up in complexity, leaving it behind was likely for the best.
-                (But hey, <a href='https://www.youtube.com/playlist?list=PLnPMjDuz3DzwFtR4jzhIrTBuVHs9DxVDg' target='_blank' rel='noreferrer'>
-                at least I&apos;ll have it&apos;s music</a>.)
-            </p>
-        </div>
+        <p>
+            Ultimately, however, the prime of my Pokémon Masters era stemmed from the fact that
+            other events in my life demanded a lot of my time. Because Masters videos were easy
+            to &quot;mass-produce&quot;, it ended up just being an easy out to keep the channel
+            alive whilst I tended to other things. It wouldn&apos;t hold up, though; the cracks
+            in the foundation were apparent, but there were three main reasons why I decided to
+            move on from the game.
+            <ol>
+                <li>
+                    Power creep was starting to drive the game away from the battling mechanics
+                    of the core series - a trend which continues to this day.
+                </li>
+                <li>
+                    The difficulty ceiling was starting to get a bit too high. Even though this
+                    may sound funny for a gacha game, I had began to notice months earlier that
+                    other players were pulling off battle strategies that would have demanded
+                    hours of my time.
+                </li>
+                <li>
+                    As I started getting more into the environment of game development, I found
+                    that I was wanting to actually build a gacha system of my own: one which
+                    would focus on players over profit. Although this has yet to materialize, I
+                    have had some ideas rolling around that I definitely intend to work with at
+                    a later time.
+                </li>
+            </ol>
+            At the end of the day, Masters was never going to hold up; however, I still revisit
+            the game from time to time, if I feel like it. But especially as my web development
+            course started to pick up in complexity, leaving it behind was likely for the best.
+            (But hey, <a href='https://www.youtube.com/playlist?list=PLnPMjDuz3DzwFtR4jzhIrTBuVHs9DxVDg' target='_blank' rel='noreferrer'>
+            at least I&apos;ll have it&apos;s music</a>.)
+        </p>
         <h3 className='cc-subheader'>Where I Am Today</h3>
         <p>
             As of now, my content creation career is on a bit of a &quot;leave of absence&quot;, so
