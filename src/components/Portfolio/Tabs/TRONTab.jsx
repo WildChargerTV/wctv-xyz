@@ -75,6 +75,23 @@ export default function TRONTab() {
                 allowfullscreen
             />
         </div>
+        <h3 className='tron-subheader'>TRON 2.0 High Quality Game Music</h3>
+        <p id='tron-paragraph-4'>
+            TRON 2.0 utilizes a super cool music system (for the time) that allowed Monolith to
+            make multiple versions of the same song, and then use a segment system to allow for
+            seamless transitioning between low & high music intensities. While impressive, this
+            unfortunately meant that the game shipped with all its music broken up into pieces, and
+            giving us no idea how exactly to put them back together. I was able to crack the code,
+            though; and I can now proudly present to you the ingame music of TRON 2.0 at source
+            quality! 
+        </p>
+        <div id='gof-album-grid'>
+            <div id='tron-hq-music'>
+                <img src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/TRON/HQ%20Music%20Album%20Cover.png' alt='TRON 2.0 High Quality Game Music Album Cover' />
+                <FileDownloadLink itemKey='tron20-hq-game-music.zip' linkText='Download' />
+                <a href='https://www.youtube.com/playlist?list=PLVJSCg8T091e0BNvVSZikF8nzWoeYDxyy' target='_blank' rel='noreferrer'>Playlist</a>
+            </div>
+        </div>
         <img 
             id='tron-footer-meme'
             src='https://raw.githubusercontent.com/WildChargerTV/wildcharger-xyz/refs/heads/main/src/img/TRON/Drive%20C%20Forever.png' 
