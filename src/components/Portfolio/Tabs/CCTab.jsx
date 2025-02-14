@@ -176,8 +176,8 @@ export default function CCTab() {
         <p>
             As of now, my content creation career is on a bit of a &quot;leave of absence&quot;, so
             to speak. Although I have uploaded some stuff since, such as the <a href='https://www.youtube.com/playlist?list=PLVJSCg8T091e0BNvVSZikF8nzWoeYDxyy' target='_blank' rel='noreferrer'>
-            TRON 2.0 Soundtrack</a> (download coming soon), other things in my life currently take
-            a higher priority. Anything I do will likely be on <a href='https://twitch.tv/wildchargertv' target='_blank' rel='noreferrer'>
+            TRON 2.0 Soundtrack</a>, other things in my life currently take a higher priority.
+            Anything I do will likely be on <a href='https://twitch.tv/wildchargertv' target='_blank' rel='noreferrer'>
             my Twitch channel</a>, as it is more easily accessible; though I do intend preparing to
             start multistreaming to YouTube as well whenever I get the time.
             <br /><br />
