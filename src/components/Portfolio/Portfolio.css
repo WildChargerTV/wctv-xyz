@@ -81,6 +81,9 @@
     text-transform: uppercase;
     width: 90%;
 }
+#gof-album-grid button:hover {
+    color: #f9e2ad;
+}
 
 #tron-header {
     -webkit-text-stroke: 0.25vw black;
@@ -183,9 +186,6 @@
     max-width: 20%;
 }
 
-#cc-paragraph-paladins-2 {
-    flex-direction: row-reverse;
-}
 #cc-paragraph-paladins-2 img {
     max-width: 33%;
 }
